@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  
+ 
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color:#334154;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+.name ,.navbar{
+  display: flex;
+  padding: 10px;
+  
+}
+.name{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+li{
+  list-style: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#sec-1{
+  display: flex;
+ justify-content: space-around;
+ margin: 50px;
+}
+
+.img{
+  width: 400px;
+  height: 300px;
+}
+
+.intro{
+  width: 300px;
+  line-height: 30px;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  
+}
+
+.title{
+  color:#68A6CC;
+  font-size: larger;
+}
+
+
+.img2{
+  border-radius: 50%;
+  height: 300px;
+  width: 400px;
+}
+
+#sec-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ padding: 10px;
+}
+
+.service-img{
+  width: 300px;
+  height: 300px;
+ 
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  width: 300px ;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+ 
+  padding: 10px;
+}
+
+.service:hover{
+  box-shadow: 1px 1px 5px 1px;
+}
+
+.title2{
+  text-align: center;
+  color:#68A6CC;
+}
+
+#footer{
+  background-color: #334154;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.hr{
+  color: white;
+  width: 100%;
+  height: 5px;
+}
+
+.icon{
+  padding: 3px;
+  margin: 10px;
+  font-size: large;
+}
+
+.portfolio>img{
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.portfolio>img:hover{
+  box-shadow: 1px 1px 4px 4px white;
+}
+
+#sec-3{
+  display: flex;
+
+flex-wrap: wrap;
+}
+
+.sec-3>div{
+  margin: 20px;
+}
+
+
+.link{
+  background-color: #68A6CC;
+  padding: 5px;
+  width: 100px;
+  margin: 2px;
+  border-radius: 3px;
+  transition: width 2s, height 2s;
+  height: 25px;
+}
+
+.link>a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link:hover{
+  height: 20px;
+  width: 90px;
+}
+
+ul>a{
+  text-decoration: none;
+  color: white;
+}
+.portfolio{
+  margin: 20px;
+}
